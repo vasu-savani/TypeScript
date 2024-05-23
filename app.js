@@ -1,9 +1,6 @@
-// function add(n1:number, n2:number){
-//     return n1 + n2;
-// }
-// let result = add(10, 20);
-function dummy(a) {
-    return a;
+"use strict";
+// let fruit = "apple";
+// fruit = 33
+function add(a, b, ...rest) {
+    return a + b + rest.reduce((p, c) => p + c, 0);
 }
-var result = dummy("hello world");
-console.log(result);

@@ -1,2 +1,3 @@
-var arr = ["php", "javascript", "xml", "json"];
+"use strict";
+let arr = ["php", "javascript", "xml", "json"];
 console.warn(arr);

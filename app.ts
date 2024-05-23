@@ -1,6 +1,5 @@
-
-function dummy(a:string){
-    return a;
-}
-let result = dummy("hello world");
-console.log(result);
+// let fruit = "apple";
+// fruit = 33
+function add(a: number, b: number, ...rest: number[]) {
+    return a + b + rest.reduce((p, c) => p + c, 0);
+  }

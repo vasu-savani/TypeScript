@@ -1,9 +1,10 @@
-var person = {
+"use strict";
+const person = {
     name: 'John',
     age: 30,
     email: 'john@example.com',
 };
-var user = {
+const user = {
     name: 'vasu',
     age: 30,
     email: 'vasu@example.com',
